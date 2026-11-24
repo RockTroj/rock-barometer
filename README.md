@@ -1,6 +1,6 @@
 # Rock Barometer
 
-Rock Barometer has two apps, one for Wear OS watches and one for Android phones. Both show atmospheric pressure on an analog dial and keep up to seven days of readings. You can view the pressure chart right on your watch.
+Rock Barometer has two apps, one for Wear OS watches and one for Android phones. Both show atmospheric pressure on an analog dial and keep up to seven days of readings. You can view the pressure Graph right on your watch.
 
 [Download for Android or Wear OS](#downloads) · [Screenshots](#screenshots)
 
@@ -8,21 +8,21 @@ Rock Barometer has two apps, one for Wear OS watches and one for Android phones.
 
 Each app takes readings from the device’s built-in pressure sensor. A watch or phone with its own sensor can measure pressure and plot its history independently, even without an internet connection.
 
-A paired watch with a barometer can send its readings and history to your phone, even if the phone has no pressure sensor. If both devices have a sensor, choose **Phone** or **Watch** in the phone app. Each source has its own chart.
+A paired watch with a barometer can send its readings and history to your phone, even if the phone has no pressure sensor. If both devices have a sensor, choose **Phone** or **Watch** in the phone app. Each source has its own Graph.
 
-When **Watch** is selected, the phone shows the names of the watch and its pressure sensor. If the connection drops, the needle disappears and dashes replace the current pressure reading. Earlier readings stay on the chart.
+When **Watch** is selected, the phone shows the names of the watch and its pressure sensor. If the connection drops, the needle disappears and dashes replace the current pressure reading. Earlier readings stay on the Graph.
 
 ## Standalone mode on the watch
 
 Turn on **Standalone mode** in the watch app’s settings to save battery. The watch keeps measuring pressure and saves readings locally when history recording is on. Rock Barometer stops syncing readings and history with the companion app on your phone. Your watch stays connected to your phone, so notifications and other connected features continue to work.
 
-## Charts and export
+## Graph and export
 
-On your watch or phone, tap the chart to see the pressure and exact time of the nearest recorded reading. On your phone, open the chart full screen in landscape to see individual points more clearly. You can also save the chart as a PNG image or export the readings as a CSV file.
+On your watch or phone, tap the Graph to see the pressure and exact time of the nearest recorded reading. On your phone, open the Graph full screen in landscape to see individual points more clearly. You can also save the Graph as a PNG image or export the readings as a CSV file.
 
 ## Watch tile, watch face, and phone widget
 
-Version 2.1.3 added a pressure chart tile for the watch’s tile carousel. Wear OS limits how often tiles can refresh, so the tile updates less often than the chart in the app.
+Version 2.1.3 added a pressure Graph tile for the watch’s tile carousel. Wear OS limits how often tiles can refresh, so the tile updates less often than the Graph in the app.
 
 On a compatible watch face, add the Rock Barometer complication to see the current pressure at a glance. On Android, add the Rock Barometer widget to your home screen just like any other widget.
 
@@ -33,7 +33,7 @@ For more reliable background recording, turn off battery optimization for Rock B
 - **Samsung Galaxy Watch (Wear OS)** — Open **Settings → Battery → Sleeping apps**. If **Barometer** is listed, remove it from the list.
 - **Android phone** — The steps depend on your phone model and Android version.
 
-A shorter recording interval uses more battery power but gives you more readings and a more detailed pressure chart.
+A shorter recording interval uses more battery power but gives you more readings and a more detailed pressure Graph.
 
 ## Downloads
 
@@ -68,10 +68,10 @@ Install the APK for your device. To use the apps together, install the phone APK
 
 <p>
 <a href="https://github.com/user-attachments/assets/e341cdcb-1dbf-4699-b07c-3f38de1e17b8"><img src="https://github.com/user-attachments/assets/e341cdcb-1dbf-4699-b07c-3f38de1e17b8" alt="Android phone pressure dial using the watch sensor" height="250"></a>
-<a href="https://github.com/user-attachments/assets/edcf7265-c119-4dec-9273-e3008ebd791f"><img src="https://github.com/user-attachments/assets/edcf7265-c119-4dec-9273-e3008ebd791f" alt="Android pressure chart and export buttons" height="250"></a>
+<a href="https://github.com/user-attachments/assets/edcf7265-c119-4dec-9273-e3008ebd791f"><img src="https://github.com/user-attachments/assets/edcf7265-c119-4dec-9273-e3008ebd791f" alt="Android pressure Graph and export buttons" height="250"></a>
 </p>
 <p>
-<a href="https://github.com/user-attachments/assets/9dec53b3-489b-4630-9678-3b6beca10dbf"><img src="https://github.com/user-attachments/assets/9dec53b3-489b-4630-9678-3b6beca10dbf" alt="Full-screen pressure chart in landscape on Android" width="510"></a>
+<a href="https://github.com/user-attachments/assets/9dec53b3-489b-4630-9678-3b6beca10dbf"><img src="https://github.com/user-attachments/assets/9dec53b3-489b-4630-9678-3b6beca10dbf" alt="Full-screen pressure Graph in landscape on Android" width="510"></a>
 </p>
 
 </details>
