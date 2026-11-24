@@ -1,6 +1,39 @@
 # Rock Barometer
 
-An offline barometer for Wear OS watches and Android phones. View atmospheric pressure on a dial and explore up to seven days of readings on either device.
+Rock Barometer has two apps, one for Wear OS watches and one for Android phones. Both show atmospheric pressure on an analog dial and keep up to seven days of readings. You can view the pressure chart right on your watch.
+
+[Download for Android or Wear OS](#downloads) · [Screenshots](#screenshots)
+
+## How it works
+
+Each app takes readings from the device’s built-in pressure sensor. A watch or phone with its own sensor can measure pressure and plot its history independently, even without an internet connection.
+
+A paired watch with a barometer can send its readings and history to your phone, even if the phone has no pressure sensor. If both devices have a sensor, choose **Phone** or **Watch** in the phone app. Each source has its own chart.
+
+When **Watch** is selected, the phone shows the names of the watch and its pressure sensor. If the connection drops, the needle disappears and dashes replace the current pressure reading. Earlier readings stay on the chart.
+
+## Standalone mode on the watch
+
+Turn on **Standalone mode** in the watch app’s settings to save battery. The watch keeps measuring pressure and saves readings locally when history recording is on. Rock Barometer stops syncing readings and history with the companion app on your phone. Your watch stays connected to your phone, so notifications and other connected features continue to work.
+
+## Charts and export
+
+On your watch or phone, tap the chart to see the pressure and exact time of the nearest recorded reading. On your phone, open the chart full screen in landscape to see individual points more clearly. You can also save the chart as a PNG image or export the readings as a CSV file.
+
+## Watch tile, watch face, and phone widget
+
+Version 2.1.3 added a pressure chart tile for the watch’s tile carousel. Wear OS limits how often tiles can refresh, so the tile updates less often than the chart in the app.
+
+On a compatible watch face, add the Rock Barometer complication to see the current pressure at a glance. On Android, add the Rock Barometer widget to your home screen just like any other widget.
+
+## Background recording and battery use
+
+For more reliable background recording, turn off battery optimization for Rock Barometer on your watch and phone.
+
+- **Samsung Galaxy Watch (Wear OS)** — Open **Settings → Battery → Sleeping apps**. If **Barometer** is listed, remove it from the list.
+- **Android phone** — The steps depend on your phone model and Android version.
+
+A shorter recording interval uses more battery power but gives you more readings and a more detailed pressure chart.
 
 ## Downloads
 
@@ -11,24 +44,7 @@ An offline barometer for Wear OS watches and Android phones. View atmospheric pr
 | Android phone | [Download the phone APK](https://github.com/RockTroj/rock-barometer/releases/download/v2.2.6/Barometr-Phone-2.2.6.apk) |
 | Wear OS watch | [Download the watch APK](https://github.com/RockTroj/rock-barometer/releases/download/v2.2.6/Barometr-WearOS-2.2.6.apk) |
 
-Install the APK for the device you want to use. A phone or watch with its own pressure sensor works independently. To see watch readings on your phone, install both apps and pair the devices. If both have sensors, choose the source on your phone.
-
-Tap a point on the chart for its pressure and measurement time. On the phone you can view the chart in landscape, save it as a PNG, or export readings as a CSV. A Wear OS tile, a watch face complication, and an Android home screen widget give quick access to pressure.
-
-[Privacy policy](https://sites.google.com/view/the-rock-apps/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0) · [Terms of use](https://sites.google.com/view/the-rock-apps/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0#h.pofv49uzonn3_l)
-
-## Standalone mode on the watch
-
-Turn on **Standalone mode** in the watch app’s settings to save battery. The watch keeps measuring pressure and saves readings locally when history recording is on. Rock Barometer stops syncing readings and history with the companion app on your phone. Your watch stays connected to your phone, so notifications and other connected features continue to work.
-
-## Background recording and battery use
-
-For more reliable background recording, turn off battery optimization for Rock Barometer on your watch and phone.
-
-- **Samsung Galaxy Watch (Wear OS)** — Open **Settings → Battery → Sleeping apps**. If **Barometer** is listed, remove it from the list.
-- **Android phone** — The steps depend on your phone model and Android version.
-
-A shorter recording interval uses more battery power but gives you more readings and a more detailed pressure chart.
+Install the APK for your device. To use the apps together, install the phone APK on your phone and the Wear OS APK on your watch, then pair the devices.
 
 ## Screenshots
 
@@ -59,3 +75,13 @@ A shorter recording interval uses more battery power but gives you more readings
 </p>
 
 </details>
+
+## Freeware license
+
+You may install and use both Rock Barometer apps free of charge. I, The Rock, retain the copyright to both apps.
+
+You need my written permission to sell either app, include it in a paid bundle, charge for access to it, or otherwise monetize the app itself. You also need my written permission to modify either app or distribute a modified version.
+
+Both apps are provided **AS IS**.
+
+[Privacy policy](https://sites.google.com/view/the-rock-apps/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0) · [Terms of use](https://sites.google.com/view/the-rock-apps/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0#h.pofv49uzonn3_l)
