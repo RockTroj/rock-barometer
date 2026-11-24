@@ -17,6 +17,19 @@ Tap a point on the chart for its pressure and measurement time. On the phone you
 
 [Privacy policy](https://sites.google.com/view/the-rock-apps/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0) · [Terms of use](https://sites.google.com/view/the-rock-apps/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0#h.pofv49uzonn3_l)
 
+## Standalone mode on the watch
+
+Turn on **Standalone mode** in the watch app’s settings to save battery. The watch keeps measuring pressure and saves readings locally when history recording is on. Rock Barometer stops syncing readings and history with the companion app on your phone. Your watch stays connected to your phone, so notifications and other connected features continue to work.
+
+## Background recording and battery use
+
+For more reliable background recording, turn off battery optimization for Rock Barometer on your watch and phone.
+
+- **Samsung Galaxy Watch (Wear OS)** — Open **Settings → Battery → Sleeping apps**. If **Barometer** is listed, remove it from the list.
+- **Android phone** — The steps depend on your phone model and Android version.
+
+A shorter recording interval uses more battery power but gives you more readings and a more detailed pressure chart.
+
 ## Screenshots
 
 <details>
