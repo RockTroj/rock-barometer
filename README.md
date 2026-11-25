@@ -1,10 +1,11 @@
 # Rock Barometer for Wear OS and Android — Offline Pressure Tracking with a 7-Day Graph
 
+<img width="1024" height="500" alt="Screenshot_20261123_091753_watch 3" src="https://github.com/user-attachments/assets/265a212c-946c-4e1f-abde-be5cac4a8475" />
+
+
 Rock Barometer has two apps, one for Wear OS watches and one for Android phones. Both show atmospheric pressure on an analog dial and keep up to seven days of readings. You can view the pressure Graph right on your watch.
 
 [Download for Android or Wear OS](#downloads) · [Screenshots](#screenshots)
-
-![Uploading Screenshot_20261123_091753_watch 3.png…]()
 
 
 ## How it works
