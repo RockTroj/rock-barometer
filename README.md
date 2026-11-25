@@ -4,6 +4,9 @@ Rock Barometer has two apps, one for Wear OS watches and one for Android phones.
 
 [Download for Android or Wear OS](#downloads) · [Screenshots](#screenshots)
 
+![Uploading Screenshot_20261123_091753_watch 3.png…]()
+
+
 ## How it works
 
 Each app takes readings from the device’s built-in pressure sensor. A watch or phone with its own sensor can measure pressure and plot its history independently, even without an internet connection.
